@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer-box
+        {
+            border: 2px solid black;
+            width: 1300px;
+            height: 600px;
+            position: absolute;
+            left: 30px;
+            top: 25px;
+        }
+        .inner-box1
+        {
+            border-left: 2px solid black;
+            height: 600px;
+            position: absolute;
+            left: 550px;
+            top:-15px;
+        }
+        .login-page
+        {
+            border: 2px solid black;
+            position: absolute;
+            height: 475px;
+            width: 400px;
+            top: 60px;
+            left: 725px;
+        }
+        .log-in
+        {
+            font-size: xx-large;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            position: absolute;
+            left: 165px;
+            top: -15px;
+            font-weight: bolder;
+        }
+        .email
+        {
+            font-size: 18px;
+            top: 110px;
+            left: 20px;
+            position: absolute;
+            font-family:sans-serif;
+            font-weight: bold;
+        }
+        .email-box
+        {
+            position: absolute;
+            left: 85px;
+            top: 140px;
+            height: 30px;
+            width: 220px;
+            border-radius: 5px;
+        }
+        .password
+        {
+            font-size: 18px;
+            top: 200px;
+            left: 20px;
+            position: absolute;
+            font-family:sans-serif;
+            font-weight: bold;
+        }
+        .password-box
+        {
+            position: absolute;
+            left: 85px;
+            top: 240px;
+            height: 30px;
+            width: 220px;
+            border-radius: 5px;
+        }
+        .login-button
+        {
+            position: absolute;
+            top: 320px;
+            left:150px;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid rgb(22, 148, 22);
+            font-size: 20px;
+            color: white;
+            background-color: rgb(22, 148, 22);
+            border-radius: 4px;
+            height: 30px;
+            width: 100px;
+        }
+        .login-button:hover
+        {
+            opacity: 0.6;
+        }
+        .follow
+        {
+            position: absolute;
+            top: 360px;
+            left: 10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        }
+        .instagram
+        {
+            text-decoration: none;
+            font-size: large;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: absolute;
+            top: 420px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <p class="inner-box1"></p>
+        <img src="bus logo.jpg">
+        <div class="login-page">
+            <p class="log-in">Login</p>
+            <label class="email">Email :</label>
+            <input type="text" class="email-box" placeholder="Enter Your Email">
+            <label class="password">password :</label>
+            <input type="password" class="password-box" placeholder="Enter Your Password">
+            <a href="#" class="login-button">Login</a>
+            <p class="follow">Follow us on :</p>
+            <a href="#" class="instagram">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>

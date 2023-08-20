@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .video
+        {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            z-index: -1;
+            height: 900px;
+            opacity: 0.8;
+        }
+        .box
+        {
+            border: 2px solid black;
+            height: 550px;
+            width: 400px;
+            position: absolute;
+            left: 850px;
+            top: 40px;
+            BACKGROUND: RGBA(0, 0, 0, 0.5);
+            border-radius:10px;
+        }
+        .email
+        {
+            top:130px;
+            left: 15px;
+            position: absolute;
+            font-size: x-large;
+            color: whitesmoke;
+        }
+        .email-box
+        {
+            position: absolute;
+            top: 170px;
+            left: 100px;
+            height: 30px;
+            width: 220px;
+            border-radius: 6px;
+        }
+        .password
+        {
+            top:230px;
+            left: 15px;
+            position: absolute;
+            font-size: x-large;
+            color: whitesmoke;
+        }
+        .password-box
+        {
+            position: absolute;
+            top: 280px;
+            left: 100px;
+            height: 30px;
+            width: 220px;
+            border-radius: 6px;
+        }
+        .log-in
+        {
+            font-size: xx-large;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            position: absolute;
+            left: 160px;
+            top: -10px;
+            font-weight: bolder;
+            color: white;
+        }
+        .login-button
+        {
+            position: absolute;
+            top: 360px;
+            left:150px;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid rgb(22, 148, 22);
+            font-size: 20px;
+            color: white;
+            background-color: rgb(22, 148, 22);
+            border-radius: 4px;
+            height: 30px;
+            width: 100px;
+        }
+        .login-button:hover
+        {
+            opacity: 0.6;
+        }
+        .or
+        {
+            color: white;
+            font-size: 20px;
+            top: 400px;
+            position: absolute;
+            left: 190px;
+        }
+        .facebook
+        {
+            position: absolute;
+            top: 460px;
+            left: 105px;
+            border: 2px solid rgb(7, 29, 150);
+            background-color: rgb(7, 29, 150);
+            color: white;
+            height: 30px;
+            width: 200px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 30px;
+            text-decoration: none;
+        }
+        </style>
+</head>
+<body>
+        <div class="box">
+            <p class="log-in">Login</p>
+            <label class="email">Email :</label>
+            <input type="email"  class="email-box" placeholder="Enter Your Email">
+            <label class="password">Password :</label>
+            <input type="password" class="password-box" placeholder="Enter Your Password">
+            <a href="tripes.html" class="login-button">Login</a>
+            <p class="or">or</p>
+            <a class="facebook" href="https://www.facebook.com">Log in with facebook</a>
+        </div>
+        <video autoplay loop muted play-inline class="video">
+            <source src="pexels_videos_2235731 (2160p).mp4" type="video/mp4">
+    </video>
+</body>
+</html>
